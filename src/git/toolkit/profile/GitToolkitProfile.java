@@ -4,6 +4,8 @@
  */
 package git.toolkit.profile;
 
+import git.toolkit.profile.UI.Home.Home;
+
 /**
  *
  * @author NeoTRAN
@@ -14,7 +16,7 @@ public class GitToolkitProfile {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new Home().show();
     }
     
 }
